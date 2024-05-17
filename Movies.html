@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WatchWave Home</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background-color: #111;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 1.5em;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); 
+      grid-gap: 20px;
+    }
+    .card {
+      position: relative;
+      background-color: #333;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .card h2 {
+      font-size: 1em;
+      padding: 10px;
+      color: #ffffff;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0; 
+      transition: opacity 0.3s ease-in-out;}
+
+    .card:hover h2 {
+      opacity: 1;   
+    }
+  </style>
+
+  
+</head>
+<body>
+
+<header> 
+    <h2> Movies</h2>
+</header>
+
+<h2> Bollywood Movies</h2>
+
+ <div class="container">
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="veersawarkar.jpg" alt="Movie 1"  style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Veer Sawarkar</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="murdermubarak.jpg" alt="Movie 2" style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Murder Mubarak</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="hi_papa.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Hi Papa</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="crew.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Crew</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="yodha.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Yodha </h2>
+  </div>
+</div>
+
+
+<h2>Hollywood Movies</h2>
+<div class="container">
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="civil_war.pjg.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Civil War </h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="omen.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>The First Omen</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="upgraded.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Upgraded  </h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="musica.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Musica  </h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="planet.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Kingdom of the Planet of the Apes</h2>
+  </div>
+
+  
+
+</div>
+
+</body>
+</html>

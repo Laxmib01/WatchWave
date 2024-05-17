@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WatchWave Home</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #111;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 1.5em;
+    }
+
+    /* Main content container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); 
+      grid-gap: 20px;
+    }
+
+    /* Movie/Show card styles */
+    .card {
+      position: relative;
+      background-color: #333;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      font-size: 1em;
+      padding: 10px;
+      color: #ffffff;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0; 
+      transition: opacity 0.3s ease-in-out;}
+
+    .card:hover h2 {
+      opacity: 1;   
+    }
+  </style>
+
+  
+</head>
+<body>
+
+<header>
+  <h2> Welcome to WatchWave</h2>
+</header>
+<h2>Trending Movies</h2>
+
+ <div class="container">
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="spaceman.jpg" alt="Movie 1" style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Spaceman</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="damsel.jpg" alt="Movie 2" style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Damsel</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="our_living _world.jpg" alt="Movie 2" style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Our Living World</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="love_divided.jpg" alt="Movie 2" style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Love, Divided</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="tearsmith.jpg" alt="Movie 2" style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>The Tearsmith</h2>
+  </div>
+</div>
+
+
+<h2> Trending Web Series</h2>
+<div class="container">
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="parasite.jpg" alt="Movie 2" style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Parasite: The Grey</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="queenoftears.jpg" alt="Movie 2" style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Queen of Tears</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="fallout.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Fallout  </h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="ripley.jpg" alt="Movie 2" style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>  Ripley</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="impossibleheir.jpg" alt="Movie 2" style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>  The Impossible Heir</h2>
+  </div>
+
+  
+
+</div>
+
+</body>
+</html>

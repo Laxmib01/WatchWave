@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WatchWave web series</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background-color: #111;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 1.5em;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); 
+      grid-gap: 20px;
+    }
+    .card {
+      position: relative;
+      background-color: #333;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .card h2 {
+      font-size: 1em;
+      padding: 10px;
+      color: #ffffff;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0; 
+      transition: opacity 0.3s ease-in-out;}
+    .card:hover h2 {
+      opacity: 1;   
+    }
+  </style>
+  
+</head>
+<body>
+
+<header> 
+    <h2> Web Series</h2>
+</header>
+
+<h2> Hollywood Dramas</h2>
+
+ <div class="container">
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="dayone.jpg" alt="Movie 1"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>A Quiet Place: Day One</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="dune.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2> Dune: Part Two</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="poorthings.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Poor Things </h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="oppenheimer.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Oppenheimer (I)</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="neverhave.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Never Have I Ever </h2>
+  </div>
+</div>
+
+
+<h2>K Dramas</h2>
+<div class="container">
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="snowdrop.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Snowdrop  </h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="impossibleheir.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>The Impossible Heir</h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="gyeongseong.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Gyeongseong Creature  </h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="lovelyrunner.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2>Lovely Runner  </h2>
+  </div>
+
+  <div class="card">
+    <!-- Image or Video goes here -->
+    <img src="truebeauty.jpg" alt="Movie 2"style="width: 200px; height: 300px; object-fit: cover;">
+    <!-- Movie or Show Name -->
+    <h2> True Beauty</h2>
+  </div>
+
+  
+
+</div>
+
+</body>
+</html>
